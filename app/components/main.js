@@ -4,8 +4,10 @@ import styled from 'styled-components/native';
 const Container = styled.View`
     flex: 1;
     background-color: #121212;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 `;
 
 const Text = styled.Text`
