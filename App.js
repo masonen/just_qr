@@ -1,11 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {StyleSheet} from 'react-native';
+import * as Main from "./app/components/main";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+      <Main.Container>
+        <Main.Title>Just QR</Main.Title>
+        <Main.Text>No Adds. no 💩.</Main.Text>
+        <Main.Text>Just a Barcode Scanner.</Main.Text>
+      </Main.Container>
   );
 }
 
