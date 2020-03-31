@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Just QR",
     "slug": "just_qr",
-    "privacy": "public",
+    "privacy": "unlisted",
     "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
